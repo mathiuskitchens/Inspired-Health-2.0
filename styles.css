@@ -186,7 +186,7 @@ color: #000000;
 
 .welcomeImg { 
     border-radius: 50%;
-    width: 65%;
+    width: 75%;
     
 }
 
@@ -198,12 +198,14 @@ hr.rounded {
 
 button { 
     background: #A259FF;
-    border-radius: 6px;
+    border-radius: 8px;
     margin: 2% 0 5% 0;
+    border: 0;
+    padding: 8px 20px;
 }
 
 .buttonText {
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -224,4 +226,36 @@ text-align: center;
 letter-spacing: -0.015em;
 
 color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 72px;
+/* or 150% */
+
+letter-spacing: -0.015em;
+
+color: #000000;
+}
+
+.header2 {
+    margin: 120px auto 50px 70px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimony-block {
+    width: 50%;
+    margin: 70px;
+}
+
+.testimonyPic {
+    width: 60%;
+    border-radius: 50%;
 }
