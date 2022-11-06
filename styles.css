@@ -1,0 +1,227 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+   /* Inspired Health */
+
+width: 260px;
+height: 46px;
+
+
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 32px;
+margin-right: 25%;
+margin-left: 15px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #000000; 
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    /*Removes underline from anchor tag in nav*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.aboutMe {
+    /* About Me */
+
+
+width: 74px;
+height: 18px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #A259FF;
+}
+
+.health {
+width: 50px;
+height: 18px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #A259FF;
+}
+
+.discipleship {
+width: 91px;
+height: 18px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #A259FF;
+}
+
+.support {
+    /* Support */
+
+
+width: 61px;
+height: 18px;
+left: 1539px;
+top: 21px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #A259FF;
+}
+
+.welcome {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.leftWelcome {
+    width: 40%;
+    text-align: center;
+}
+
+.rightWelcome {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+h4 {
+    /* Body H4 */
+
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 900;
+font-size: 20px;
+line-height: 36px;
+margin: auto;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
+
+color: #000000;
+}
+
+p {
+    /* Body P */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+/* or 167% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.name {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 36px;
+/* or 150% */
+
+letter-spacing: -0.015em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.welcomeImg { 
+    border-radius: 50%;
+    width: 65%;
+    
+}
+
+hr.rounded {
+    border-top: 1px solid #A259FF;
+    border-radius: 5px;
+    margin: auto 5%;
+}
+
+button { 
+    background: #A259FF;
+    border-radius: 6px;
+    margin: 2% 0 5% 0;
+}
+
+.buttonText {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #FFFFFF;
+}
