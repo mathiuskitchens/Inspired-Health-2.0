@@ -137,6 +137,7 @@ color: #A259FF;
     display: flex;
     flex-direction: column;
     width: 60%;
+    margin-right: 30px;
 }
 
 h4 {
