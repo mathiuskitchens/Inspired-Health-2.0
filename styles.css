@@ -15,10 +15,10 @@ height: 46px;
 font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
-font-size: 26px;
+font-size: 28px;
 line-height: 32px;
 margin-right: 25%;
-margin-left: 15px;
+margin-left: 20px;
 
 
 display: flex;
@@ -40,7 +40,14 @@ a {
 }
 
 a:hover {
-    color: black;
+}
+
+.navi {
+ /*Placeholder*/
+}
+
+.navi:hover {
+    transform: scale(1.1);
 }
 
 .aboutMe {
@@ -100,8 +107,8 @@ letter-spacing: -0.015em;
 color: #A259FF;
 }
 
-.support {
-    /* Support */
+.schedule {
+    /* Schedule */
 
 
 width: 61px;
@@ -189,6 +196,7 @@ color: #000000;
     border-radius: 50%;
     width: 75%;
     max-width: 270px;
+    margin-bottom: 15px;
 }
 
 hr.rounded {
@@ -266,7 +274,7 @@ color: #000000;
 }
 
 .footer {
-    height: 170px;
+    height: 200px;
     text-align: center;
 }
 
@@ -281,6 +289,7 @@ color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     
 }
 
@@ -290,7 +299,7 @@ color: #000000;
     width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 40px 10px;
+    margin: 40px 25px;
     border-radius: 50%;
   }
   
@@ -313,7 +322,7 @@ color: #000000;
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 400;
-    margin-left: auto 15px;
+    margin-left: auto 25px;
   }
 
 
