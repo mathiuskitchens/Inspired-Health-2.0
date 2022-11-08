@@ -123,7 +123,7 @@ color: #A259FF;
 }
 
 .welcome {
-    height: 700px;
+    height: 650px;
     display: flex;
     align-items: center;
 }
@@ -146,7 +146,7 @@ h4 {
 font-family: 'Montserrat';
 font-style: bold;
 font-weight: 900;
-font-size: 20px;
+font-size: 24px;
 line-height: 36px;
 margin: auto;
 /* identical to box height, or 150% */
@@ -162,7 +162,7 @@ p {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
+font-size: 16px;
 line-height: 30px;
 /* or 167% */
 
@@ -175,7 +175,7 @@ color: rgba(0, 0, 0, 0.8);
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 900;
-font-size: 18px;
+font-size: 22px;
 line-height: 36px;
 /* or 150% */
 
@@ -188,7 +188,7 @@ color: #000000;
 .welcomeImg { 
     border-radius: 50%;
     width: 75%;
-    
+    max-width: 270px;
 }
 
 hr.rounded {
@@ -204,6 +204,10 @@ button {
     border: 0;
     padding: 8px 20px;
 }
+
+button:hover {
+    transform:scale(1.05)
+  }
 
 .buttonText {
 font-family: 'Montserrat';
@@ -262,20 +266,15 @@ color: #000000;
 }
 
 .footer {
-    height: 140px;
+    height: 170px;
     text-align: center;
-}
-
-.socialMedia {
-    width: 40px;
-    margin-top: 30px;
-    margin: 30px 30px 15px 30px;
 }
 
 .attribution {
     color: black;
     font-family: 'Montserrat';
     font-size: 10px;
+    margin-left: 50px
 }
 
 .footerList {
@@ -284,3 +283,38 @@ color: #000000;
     align-items: center;
     
 }
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 40px 10px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 1;
+      transform:scale(1.1);
+  }
+  
+  .fa-facebook {
+    background: #A259FF;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #A259FF;
+    color: white;
+  }
+
+  h5 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: auto 15px;
+  }
+
+
+  
