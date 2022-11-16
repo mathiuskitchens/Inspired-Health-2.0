@@ -2,7 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    background-color: rgba(170, 65, 134, 0.31);
+    padding-right: 20px;
+    gap: 15px;
+}
+
+body {
+    margin: 0;
 }
 
 .logo {
@@ -10,15 +16,14 @@
 
 width: 260px;
 height: 46px;
-
-
 font-family: 'Comfortaa';
 font-style: normal;
 font-weight: 400;
-font-size: 28px;
+font-size: 30px;
 line-height: 32px;
 margin-right: 25%;
-margin-left: 20px;
+margin-left: 40px;
+margin-top: 20px;
 
 
 display: flex;
@@ -37,24 +42,26 @@ li {
 a {
     /*Removes underline from anchor tag in nav*/
     text-decoration: none;
+    color: black;
 }
 
-a:hover {
-}
+
 
 .navi {
  /*Placeholder*/
+ color: black;
+ margin-top: 20px;
 }
 
 .navi:hover {
     transform: scale(1.1);
 }
 
-.aboutMe {
+.coach {
     /* About Me */
 
 
-width: 74px;
+width: auto;
 height: 18px;
 
 
@@ -68,11 +75,11 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 
-color: #A259FF;
+color: black;
 }
 
-.health {
-width: 50px;
+.weight-loss {
+width: auto;
 height: 18px;
 
 
@@ -86,11 +93,11 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 
-color: #A259FF;
+color: black;
 }
 
-.discipleship {
-width: 91px;
+.recipes {
+width: auto;
 height: 18px;
 
 
@@ -104,14 +111,14 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 
-color: #A259FF;
+color: black;
 }
 
-.schedule {
+.client-stories {
     /* Schedule */
 
 
-width: 61px;
+width: auto;
 height: 18px;
 left: 1539px;
 top: 21px;
@@ -126,13 +133,23 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 
-color: #A259FF;
+color: black;
 }
 
 .welcome {
     height: 650px;
     display: flex;
     align-items: center;
+    
+    background-color: rgba(170, 65, 134, 0.31);
+}
+
+.welcome-hr {
+    border-top: 1.1px solid #A259FF;
+    border-bottom: 1.1px;
+    border-radius: 2px;
+    width: 170px;
+    margin: 0px 2px;
 }
 
 .leftWelcome {
@@ -195,7 +212,7 @@ color: #000000;
 .welcomeImg { 
     border-radius: 50%;
     width: 75%;
-    max-width: 270px;
+    max-width: 3200px;
     margin-bottom: 15px;
 }
 
@@ -228,7 +245,8 @@ align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
 
-color: #FFFFFF;font-family: 'Montserrat';
+color: #FFFFFF;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -237,12 +255,10 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: -0.015em;
-
-color: #FFFFFF;
 }
 
 h1 {
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
@@ -254,7 +270,7 @@ letter-spacing: -0.015em;
 color: #000000;
 }
 
-.header2 {
+#header2 {
     margin: 120px auto 50px 70px;
 }
 
@@ -324,6 +340,7 @@ color: #000000;
     font-weight: 400;
     margin-left: auto 25px;
   }
+
 
 
   
