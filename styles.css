@@ -3,8 +3,8 @@
     justify-content: space-around;
     align-items: center;
     background-color: rgba(170, 65, 134, 0.31);
-    padding-right: 20px;
-    gap: 15px;
+    padding-right: 1.25rem;
+    gap: 1rem;
 }
 
 body {
@@ -12,26 +12,17 @@ body {
 }
 
 .logo {
-   /* Inspired Health */
-
-width: 260px;
-height: 46px;
-font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 32px;
-margin-right: 25%;
-margin-left: 40px;
-margin-top: 20px;
-
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: #000000; 
+    width: 30%;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-right: 25%;
+    margin-left: 5%;
+    margin-top: 1.2rem;
+    display: flex;
+    letter-spacing: -0.015em;
+    color: #000000; 
 }
 
 li {
@@ -48,99 +39,26 @@ a {
 
 
 .navi {
- /*Placeholder*/
- color: black;
- margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: black;
+    margin-top: 1.2rem;
 }
 
 .navi:hover {
     transform: scale(1.1);
 }
 
-.coach {
-    /* About Me */
-
-
-width: auto;
-height: 18px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: black;
-}
-
-.weight-loss {
-width: auto;
-height: 18px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: black;
-}
-
-.recipes {
-width: auto;
-height: 18px;
-
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: black;
-}
-
-.client-stories {
-    /* Schedule */
-
-
-width: auto;
-height: 18px;
-left: 1539px;
-top: 21px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: black;
-}
-
 .welcome {
-    height: 650px;
+    height: 38rem;
     display: flex;
     align-items: center;
-    
     background-color: rgba(170, 65, 134, 0.31);
 }
 
@@ -149,7 +67,7 @@ color: black;
     border-bottom: 1.1px;
     border-radius: 2px;
     width: 170px;
-    margin: 0px 2px;
+    margin: 0.3rem 0.2rem 0 0;
 }
 
 .leftWelcome {
@@ -161,52 +79,26 @@ color: black;
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin-right: 30px;
+    margin-right: 2rem;
 }
 
 h4 {
-    /* Body H4 */
-
-font-family: 'Montserrat';
-font-style: bold;
-font-weight: 900;
-font-size: 24px;
-line-height: 36px;
-margin: auto;
-/* identical to box height, or 150% */
-
-letter-spacing: -0.015em;
-
-color: #000000;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: auto;
+    letter-spacing: -0.015em;
+    color: #000000;
 }
 
 p {
-    /* Body P */
-
 font-family: 'Montserrat';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* or 167% */
-
+font-size: 1rem;
+line-height: 2rem;
 letter-spacing: -0.015em;
-
 color: rgba(0, 0, 0, 0.8);
-}
-
-.name {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 900;
-font-size: 22px;
-line-height: 36px;
-/* or 150% */
-
-letter-spacing: -0.015em;
-text-transform: uppercase;
-
-color: #000000;
 }
 
 .welcomeImg { 
@@ -216,18 +108,12 @@ color: #000000;
     margin-bottom: 15px;
 }
 
-hr.rounded {
-    border-top: 1px solid #A259FF;
-    border-radius: 5px;
-    margin: auto 5%;
-}
-
 button { 
     background: #A259FF;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     margin: 2% 0 5% 0;
     border: 0;
-    padding: 8px 20px;
+    padding: 0.5rem 1.5rem;
 }
 
 button:hover {
@@ -235,43 +121,25 @@ button:hover {
   }
 
 .buttonText {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-
-color: #FFFFFF;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.015em;
-}
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -0.015em;
+    }
 
 h1 {
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 72px;
-/* or 150% */
-
-letter-spacing: -0.015em;
-
-color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: -0.015em;
+    color: #000000;
 }
 
 #header2 {
-    margin: 120px auto 50px 70px;
+    margin: 9rem auto 3rem 3rem;
 }
 
 .testimonials {
@@ -281,24 +149,18 @@ color: #000000;
 
 .testimony-block {
     width: 50%;
-    margin: 70px;
+    margin: 4rem;
 }
 
 .testimonyPic {
     width: 60%;
     border-radius: 50%;
+    margin-bottom: 1.6rem;
 }
 
 .footer {
-    height: 200px;
-    text-align: center;
-}
-
-.attribution {
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 10px;
-    margin-left: 50px
+    height: 12rem;
+    background-color: rgba(170, 65, 134, 0.31);
 }
 
 .footerList {
@@ -306,21 +168,19 @@ color: #000000;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    
 }
 
 .fa {
-    padding: 20px;
-    font-size: 40px;
-    width: 20px;
+    padding: 1.2rem;
+    font-size: 2rem;
+    width: 1.2rem;
     text-align: center;
     text-decoration: none;
-    margin: 40px 25px;
+    margin: 3rem 1.8rem;
     border-radius: 50%;
   }
   
   .fa:hover {
-      opacity: 1;
       transform:scale(1.1);
   }
   
@@ -336,10 +196,16 @@ color: #000000;
 
   h5 {
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-left: auto 25px;
+    margin-left: auto 1.6rem;
   }
+
+  @media (max-width: 600px) {
+    body {
+        background-color: gray;
+  }
+}
 
 
 
