@@ -17,7 +17,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 2rem;
-    margin-right: 25%;
+    margin-right: 2rem;
     margin-left: 5%;
     margin-top: 1.2rem;
     display: flex;
@@ -201,10 +201,27 @@ h1 {
     margin-left: auto 1.6rem;
   }
 
-  @media (max-width: 600px) {
+/*Media Queries*/
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+
     body {
-        background-color: gray;
-  }
+        background-color: grey;
+    }
+
+    .logo {
+        margin-right: auto;
+    }
+}
+
+/*Smartphone*/
+
+@media (max-width: 375px) {
+    body {
+        background-color: aqua;
+    }
 }
 
 
