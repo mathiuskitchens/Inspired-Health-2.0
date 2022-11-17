@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -181,7 +185,7 @@ h1 {
   }
   
   .fa:hover {
-      transform:scale(1.1);
+      transform: scale(1.1);
   }
   
   .fa-facebook {
@@ -208,7 +212,7 @@ h1 {
 @media (max-width: 768px) {
 
     body {
-        background-color: grey;
+
     }
 
     .logo {
@@ -218,11 +222,74 @@ h1 {
 
 /*Smartphone*/
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     body {
-        background-color: aqua;
+
     }
-}
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        font-family: 'Comfortaa';
+        font-style: bold;
+        font-weight: 900;
+        font-size: 1.8rem;
+        margin: 1.2rem;
+        display: block;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0;
+    }
+
+    .navi {
+        width: 100%;
+        text-align: center;
+        display: block;
+        font-size: 0.8rem;
+        margin: 0.2rem;
+    }
+
+    .welcome {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .welcomeImg {
+        border-radius: 50%;
+        width: 13rem;
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+
+    .leftWelcome {
+        width: auto;
+        text-align: center;
+    }
+
+    .rightWelcome {
+        text-align: center;
+        margin: 0;
+    }
+
+    .welcome-hr {
+        width: 40%;
+        text-align: center;
+        margin: 0.5rem auto;
+    }
+
+    p {
+        font-size: 0.75rem;
+        line-height: 1.4rem;
+    }
+
+
+
+
+    }
 
 
 
