@@ -260,7 +260,7 @@ h1 {
 
     .welcomeImg {
         border-radius: 50%;
-        width: 13rem;
+        width: 11rem;
         margin-top: 1rem;
         margin-bottom: -2rem;
     }
@@ -286,6 +286,29 @@ h1 {
         line-height: 1.4rem;
     }
 
+    #header2 {
+        padding: 0;
+        margin: 50px 40px 10px 40px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .testimonials {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimony-block {
+        margin: 2rem;
+    }
+
+    .testimonyPic {
+        width: 9rem;
+    }
 
 
 
