@@ -1,0 +1,291 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: #aa41864f;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 1.25rem;
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  width: 30%;
+  letter-spacing: -.015em;
+  color: #000;
+  margin-top: 1.2rem;
+  margin-left: 5%;
+  margin-right: 2rem;
+  font-family: Comfortaa;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navi {
+  text-align: center;
+  letter-spacing: -.015em;
+  color: #000;
+  align-items: center;
+  margin-top: 1.2rem;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+}
+
+.navi:hover {
+  transform: scale(1.1);
+}
+
+.welcome {
+  height: 38rem;
+  background-color: #aa41864f;
+  align-items: center;
+  display: flex;
+}
+
+.welcome-hr {
+  width: 170px;
+  border-top: 1.1px solid #a259ff;
+  border-bottom: 1.1px;
+  border-radius: 2px;
+  margin: .3rem .2rem 0 0;
+}
+
+.leftWelcome {
+  width: 40%;
+  text-align: center;
+}
+
+.rightWelcome {
+  width: 60%;
+  flex-direction: column;
+  margin-right: 2rem;
+  display: flex;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-style: bold;
+  letter-spacing: -.015em;
+  color: #000;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  letter-spacing: -.015em;
+  color: #000c;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 2rem;
+}
+
+.welcomeImg {
+  width: 75%;
+  max-width: 3200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+button {
+  background: #a259ff;
+  border: 0;
+  border-radius: .5rem;
+  margin: 2% 0 5%;
+  padding: .5rem 1.5rem;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.buttonText {
+  color: #fff;
+  letter-spacing: -.015em;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h1 {
+  letter-spacing: -.015em;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#header2 {
+  margin: 9rem auto 3rem 3rem;
+}
+
+.testimonials {
+  justify-content: space-around;
+  display: flex;
+}
+
+.testimony-block {
+  width: 50%;
+  margin: 4rem;
+}
+
+.testimonyPic {
+  width: 60%;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.footer {
+  height: 12rem;
+  background-color: #aa41864f;
+}
+
+.footerList {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.fa {
+  width: 1.2rem;
+  text-align: center;
+  border-radius: 50%;
+  margin: 3rem 1.8rem;
+  padding: 1.2rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.fa:hover {
+  transform: scale(1.1);
+}
+
+.fa-facebook, .fa-instagram {
+  color: #fff;
+  background: #a259ff;
+}
+
+h5 {
+  margin-left: auto 1.6rem;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 415px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    font-family: Comfortaa;
+    font-style: bold;
+    margin: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+    display: block;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    gap: 0;
+    padding: 0;
+  }
+
+  .navi {
+    width: 100%;
+    text-align: center;
+    margin: .2rem;
+    font-size: .8rem;
+    display: block;
+  }
+
+  .welcome {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .welcomeImg {
+    width: 11rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .leftWelcome {
+    width: auto;
+    text-align: center;
+  }
+
+  .rightWelcome {
+    text-align: center;
+    margin: 0;
+  }
+
+  .welcome-hr {
+    width: 40%;
+    text-align: center;
+    margin: .5rem auto;
+  }
+
+  p {
+    font-size: .75rem;
+    line-height: 1.4rem;
+  }
+
+  #header2 {
+    margin: 50px 40px 10px;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+  .testimonials {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimony-block {
+    margin: 2rem;
+  }
+
+  .testimonyPic {
+    width: 9rem;
+  }
+}
+
+/*# sourceMappingURL=index.b1ba071c.css.map */
