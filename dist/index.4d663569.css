@@ -286,7 +286,7 @@ h5 {
   }
 
   .testimonials {
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
     flex: 1px;
     justify-content: center;
