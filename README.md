@@ -11,8 +11,5 @@ Recipes: A collection of healthy recipes that users can browse and try out, with
 
 Resources: A page with links to other websites and resources that Kourtney recommends for improving health and wellbeing.
 
-Installation
-To run Taste and See locally, you will need to have a web server installed on your computer. Once you have a web server up and running, you can follow these steps to install the site:
-
 Contributing
 If you would like to contribute to Taste and See, feel free to fork the repository and submit a pull request. We welcome contributions in the form of bug fixes, feature enhancements, and new content. 
