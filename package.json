@@ -1,0 +1,24 @@
+{
+  "name": "inspired-health-2.0",
+  "version": "1.0.0",
+  "description": "This is Version 2.0 of the Inspired Health Site.",
+  "source": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiuskitchens/Inspired-Health-2.0.git"
+  },
+  "author": "Matt Kitchens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathiuskitchens/Inspired-Health-2.0/issues"
+  },
+  "homepage": "https://github.com/mathiuskitchens/Inspired-Health-2.0#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+
+    <!-- Add icon library for socials -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/kourtneydkitchens",
+          text: "Contact Me",
+          color: "#a259ff",
+          textColor: "#ffffff",
+          branding: true,
+        });
+      };
+    </script>
+    <!-- Calendly badge widget end -->
+
+    <body>
+      <div class="header">
+        <!--MAKE BOLD STUFF CURSIVE-->
+
+        <div class="logo">Taste & See</div>
+
+        <div class="navi">
+          <li><a href="">Weight Loss</a></li>
+        </div>
+        <div class="navi">
+          <li><a href="#header2">Client Stories</a></li>
+        </div>
+        <div class="navi">
+          <li><a href="">Recipes</a></li>
+        </div>
+        <div class="navi">
+          <li>
+            <a href="https://calendly.com/kourtneydkitchens" target="_blank"
+              >Become a Coach</a
+            >
+          </li>
+        </div>
+      </div>
+
+      <div class="welcome">
+        <!--Need 2 divs here to start, one on left for pic, and one on right for text and buttons-->
+        <div class="leftWelcome">
+          <img
+            class="welcomeImg"
+            src="images/welcomePic.jpeg"
+            alt="Kourtney Kitchens smiling"
+          />
+          <div class="name"></div>
+        </div>
+
+        <div class="rightWelcome">
+          <div class="rightTopGroup">
+            <h4>Welcome!</h4>
+            <hr class="welcome-hr" />
+            <p>
+              To spread the love of Jesus in my community through discipleship
+              and healthy living. To help people break free poor eating habits,
+              creating healthy lifestyles that can be maintained for life.
+            </p>
+            <button>
+              <a
+                class="buttonText"
+                href="https://calendly.com/kourtneydkitchens"
+                target="_blank"
+                >Learn More</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="header2">
+        <h1>What my clients have to say</h1>
+      </div>
+
+      <div class="testimonials">
+        <!--Left side-->
+        <div class="testimony-block">
+          <img
+            src="images/Hasina2.jpg"
+            alt="Picture of Hasina N."
+            class="testimonyPic"
+          />
+          <h4>Hasina N.</h4>
+          <p>
+            "Kourtney is consistent and encouraging. She checks in on her
+            clients and gives advice and mentorship so that you stay on track
+            with your goals. She even shares recipes and tips that have helped
+            my health journey! I recommended multiple friends to Kourtney
+            because I trust she will do a great job to help them too, and she
+            has!"
+          </p>
+        </div>
+        <!--Right side-->
+
+        <div class="testimony-block">
+          <img
+            src="images/AmberJ.jpeg"
+            alt="Picture of Amber J."
+            class="testimonyPic"
+          />
+          <h4>Amber J.</h4>
+          <p>
+            "I could not have had anyone else as my coach besides Kourtney. She
+            allowed me the space and grace to come to the conclusion that I
+            wanted to prioritize my health. She did this by providing knowledge,
+            logical rebuttals and honestly, therapy, for my whole being, not
+            just physically. I will forever be grateful for her help during this
+            life-altering process."
+          </p>
+        </div>
+      </div>
+
+      <!--Footer -->
+      <div class="footer">
+        <div class="footerList">
+          <a
+            href="https://www.facebook.com/Kourtney.Kitchens1"
+            target="_blank"
+            class="fa fa-facebook"
+          ></a>
+          <!--<h5>Squad Up</h5>-->
+
+          <a
+            href="https://www.instagram.com/kourtney_kitchens/"
+            target="_blank"
+            class="fa fa-instagram"
+          ></a>
+          <!--<h5>Stalk </h5>-->
+        </div>
+      </div>
+
+      <script type="module" src="app.js"></script>
+    </body>
+  </head>
+</html>
