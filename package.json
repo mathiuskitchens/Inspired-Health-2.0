@@ -20,7 +20,12 @@
   "homepage": "https://github.com/mathiuskitchens/Inspired-Health-2.0#readme",
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
     "@parcel/transformer-webmanifest": "^2.8.3",
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3"
   }
 }

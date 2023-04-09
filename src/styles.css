@@ -3,11 +3,10 @@ html {
 }
 
 .header {
-  display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: rgba(170, 65, 134, 0.31);
-  padding-right: 1.25rem;
+
   gap: 1rem;
 }
 
@@ -16,15 +15,16 @@ body {
 }
 
 .logo {
+  text-decoration: none;
   width: 30%;
   font-family: "Comfortaa";
-  font-style: normal;
-  font-weight: 400;
+  font-style: bold;
+  font-weight: 900;
   font-size: 2rem;
-  margin-right: 2rem;
+  margin-right: 10%;
   margin-left: 5%;
   margin-top: 1.2rem;
-  display: flex;
+
   letter-spacing: -0.015em;
   color: #000000;
 }
@@ -40,17 +40,22 @@ a {
   color: black;
 }
 
+a:hover {
+  color: white;
+}
+
 .navi {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: -0.015em;
   color: black;
   margin-top: 1.2rem;
+  margin-left: 1rem;
 }
 
 .navi:hover {
@@ -88,7 +93,7 @@ h4 {
   font-family: "Montserrat";
   font-style: bold;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: auto;
   letter-spacing: -0.015em;
   color: #000000;
@@ -122,11 +127,16 @@ button {
     10px 10px 15px rgba(70, 70, 70, 0.25);
 }
 
+button.navbar-toggler {
+  box-shadow: none;
+}
+
 button:hover {
   transform: scale(1.05);
 }
 
 .buttonText {
+  text-decoration: none;
   color: #ffffff;
   font-family: "Montserrat";
   font-style: normal;
@@ -158,6 +168,10 @@ h1 {
   margin: 4rem;
 }
 
+.testimony-block h4 {
+  margin-bottom: 0.6rem;
+}
+
 .testimonyPic {
   width: 60%;
   border-radius: 50%;
@@ -181,7 +195,6 @@ h1 {
 .fa {
   padding: 1.2rem;
   font-size: 2rem;
-  width: 1.2rem;
   text-align: center;
   text-decoration: none;
   margin: 3rem 1.8rem;
@@ -218,9 +231,6 @@ h5 {
 /*Tablet*/
 
 @media (max-width: 768px) {
-  body {
-  }
-
   .logo {
     margin-right: auto;
   }
@@ -229,36 +239,23 @@ h5 {
 /*Smartphone*/
 
 @media (max-width: 415px) {
-  body {
-  }
-
   .logo {
-    width: 100%;
+    width: auto;
     text-align: center;
     font-family: "Comfortaa";
     font-style: bold;
     font-weight: 900;
     font-size: 2.4rem;
-    margin: 1.2rem;
+    margin: 1rem;
     display: block;
-  }
-
-  li {
-    text-decoration: underline;
-  }
-
-  .header {
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 0;
   }
 
   .navi {
     width: 100%;
-    text-align: center;
-    display: block;
-    font-size: 0.8rem;
-    margin: 0.2rem;
+    text-align: left;
+    line-height: 0.4rem;
+    font-size: 1rem;
+    margin-left: 1rem;
   }
 
   .welcome {
@@ -271,7 +268,7 @@ h5 {
     border-radius: 50%;
     width: 15rem;
     margin-top: 0rem;
-    margin-bottom: -1.5rem;
+    margin-bottom: 0rem;
   }
 
   .leftWelcome {
@@ -291,8 +288,8 @@ h5 {
   }
 
   p {
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
   }
 
   #header2 {
@@ -306,7 +303,8 @@ h5 {
   }
 
   h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
   }
 
   .testimonials {
@@ -319,6 +317,7 @@ h5 {
 
   .testimony-block {
     margin: 0.8rem;
+    width: 70%;
   }
 
   .testimonyPic {
