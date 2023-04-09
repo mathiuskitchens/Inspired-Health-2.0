@@ -1,3 +1,5 @@
+You can view this app live here: https://tasteandsee.netlify.app/
+
 Taste and See is a website dedicated to health coach Kourtney Kitchens. The site is built using HTML, CSS, and JavaScript, and provides information on Kourtney's health coaching services, as well as healthy recipes, wellness tips, and other resources.
 
 Features
