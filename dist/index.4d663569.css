@@ -7,8 +7,6 @@ html {
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
-  padding-right: 1.25rem;
-  display: flex;
 }
 
 body {
@@ -17,16 +15,16 @@ body {
 
 .logo {
   width: 30%;
+  font-family: Comfortaa;
+  font-style: bold;
   letter-spacing: -.015em;
   color: #000;
   margin-top: 1.2rem;
   margin-left: 5%;
-  margin-right: 2rem;
-  font-family: Comfortaa;
+  margin-right: 10%;
   font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  display: flex;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 li {
@@ -39,14 +37,19 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #fff;
+}
+
 .navi {
   text-align: center;
   letter-spacing: -.015em;
   color: #000;
   align-items: center;
   margin-top: 1.2rem;
+  margin-left: 1rem;
   font-family: Montserrat;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
   display: flex;
@@ -89,7 +92,7 @@ h4 {
   letter-spacing: -.015em;
   color: #000;
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 900;
 }
 
@@ -119,6 +122,10 @@ button {
   box-shadow: -10px -10px 15px #ffffff40, 10px 10px 15px #46464640;
 }
 
+button.navbar-toggler {
+  box-shadow: none;
+}
+
 button:hover {
   transform: scale(1.05);
 }
@@ -130,6 +137,7 @@ button:hover {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
 }
 
 h1 {
@@ -155,6 +163,10 @@ h1 {
   margin: 4rem;
 }
 
+.testimony-block h4 {
+  margin-bottom: .6rem;
+}
+
 .testimonyPic {
   width: 60%;
   border-radius: 50%;
@@ -175,7 +187,6 @@ h1 {
 }
 
 .fa {
-  width: 1.2rem;
   text-align: center;
   border-radius: 50%;
   margin: 3rem 1.8rem;
@@ -209,32 +220,22 @@ h5 {
 
 @media (max-width: 415px) {
   .logo {
-    width: 100%;
+    width: auto;
     text-align: center;
     font-family: Comfortaa;
     font-style: bold;
-    margin: 1.2rem;
+    margin: 1rem;
     font-size: 2.4rem;
     font-weight: 900;
     display: block;
   }
 
-  li {
-    text-decoration: underline;
-  }
-
-  .header {
-    flex-wrap: wrap;
-    gap: 0;
-    padding: 0;
-  }
-
   .navi {
     width: 100%;
-    text-align: center;
-    margin: .2rem;
-    font-size: .8rem;
-    display: block;
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 1rem;
+    line-height: .4rem;
   }
 
   .welcome {
@@ -247,7 +248,7 @@ h5 {
     width: 15rem;
     border-radius: 50%;
     margin-top: 0;
-    margin-bottom: -1.5rem;
+    margin-bottom: 0;
   }
 
   .leftWelcome {
@@ -267,8 +268,8 @@ h5 {
   }
 
   p {
-    font-size: 1rem;
-    line-height: 1.4rem;
+    font-size: .9rem;
+    line-height: 1.6rem;
   }
 
   #header2 {
@@ -282,7 +283,8 @@ h5 {
   }
 
   h4 {
-    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
   }
 
   .testimonials {
@@ -294,6 +296,7 @@ h5 {
   }
 
   .testimony-block {
+    width: 70%;
     margin: .8rem;
   }
 
