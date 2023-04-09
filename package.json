@@ -4,7 +4,7 @@
   "description": "This is Version 2.0 of the Inspired Health Site.",
   "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/mathiuskitchens/Inspired-Health-2.0#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
     "parcel": "^2.8.3"
   }
 }
