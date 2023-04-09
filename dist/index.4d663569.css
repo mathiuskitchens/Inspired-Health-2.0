@@ -107,6 +107,7 @@ p {
   max-width: 3200px;
   border-radius: 50%;
   margin-bottom: 15px;
+  box-shadow: -10px -10px 15px #ffffff40, 10px 10px 15px #46464640;
 }
 
 button {
@@ -115,6 +116,7 @@ button {
   border-radius: .5rem;
   margin: 2% 0 5%;
   padding: .5rem 1.5rem;
+  box-shadow: -10px -10px 15px #ffffff40, 10px 10px 15px #46464640;
 }
 
 button:hover {
@@ -157,6 +159,7 @@ h1 {
   width: 60%;
   border-radius: 50%;
   margin-bottom: 1.6rem;
+  box-shadow: -10px -10px 15px #ffffff40, 10px 10px 15px #46464640;
 }
 
 .footer {
@@ -188,6 +191,7 @@ h1 {
 .fa-facebook, .fa-instagram {
   color: #fff;
   background: #a259ff;
+  box-shadow: -10px -10px 15px #ffffff40, 10px 10px 15px #46464640;
 }
 
 h5 {
@@ -210,9 +214,13 @@ h5 {
     font-family: Comfortaa;
     font-style: bold;
     margin: 1.2rem;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 900;
     display: block;
+  }
+
+  li {
+    text-decoration: underline;
   }
 
   .header {
@@ -236,10 +244,10 @@ h5 {
   }
 
   .welcomeImg {
-    width: 11rem;
+    width: 15rem;
     border-radius: 50%;
-    margin-top: 1rem;
-    margin-bottom: -2rem;
+    margin-top: 0;
+    margin-bottom: -1.5rem;
   }
 
   .leftWelcome {
@@ -253,13 +261,13 @@ h5 {
   }
 
   .welcome-hr {
-    width: 40%;
+    width: 60%;
     text-align: center;
     margin: .5rem auto;
   }
 
   p {
-    font-size: .75rem;
+    font-size: 1rem;
     line-height: 1.4rem;
   }
 
@@ -270,17 +278,23 @@ h5 {
 
   h1 {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 2rem;
   }
 
   .testimonials {
-    text-align: center;
+    text-align: left;
     flex-wrap: wrap;
+    flex: 1px;
     justify-content: center;
+    margin-left: 0;
   }
 
   .testimony-block {
-    margin: 2rem;
+    margin: .8rem;
   }
 
   .testimonyPic {
