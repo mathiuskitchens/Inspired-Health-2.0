@@ -181,40 +181,11 @@ h1 {
 }
 
 .footer {
-  height: 12rem;
+  height: 4rem;
   background-color: rgba(170, 65, 134, 0.31);
-}
-
-.footerList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.fa {
-  padding: 1rem;
-  font-size: 0.8rem;
+  display: block;
   text-align: center;
-  text-decoration: none;
-  margin: 3rem 1.8rem;
-  border-radius: 50%;
-  height: 1.5rem;
-  width: 1.5rem;
-}
-
-.fa:hover {
-  transform: scale(1.1);
-}
-
-.fa-facebook {
-  background: #a259ff;
-  color: white;
-}
-
-.fa-instagram {
-  background: #a259ff;
-  color: white;
+  padding: 2rem;
 }
 
 h5 {
