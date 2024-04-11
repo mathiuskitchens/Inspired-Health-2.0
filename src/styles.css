@@ -194,13 +194,13 @@ h1 {
 
 .fa {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
   text-decoration: none;
   margin: 3rem 1.8rem;
   border-radius: 50%;
-  height: auto;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .fa:hover {
@@ -210,22 +210,17 @@ h1 {
 .fa-facebook {
   background: #a259ff;
   color: white;
-  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.25),
-    10px 10px 15px rgba(70, 70, 70, 0.25);
 }
 
 .fa-instagram {
   background: #a259ff;
   color: white;
-  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.25),
-    10px 10px 15px rgba(70, 70, 70, 0.25);
 }
 
 h5 {
   font-family: "Montserrat";
   font-size: 1rem;
   font-weight: 400;
-  margin-left: auto 1.6rem;
 }
 
 /*Media Queries*/
