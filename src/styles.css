@@ -199,6 +199,8 @@ h1 {
   text-decoration: none;
   margin: 3rem 1.8rem;
   border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
 }
 
 .fa:hover {
